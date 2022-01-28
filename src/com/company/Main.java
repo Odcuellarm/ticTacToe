@@ -1,11 +1,23 @@
 package com.company;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
         ticTacGame ticTac = new ticTacGame();
+        Scanner scanner = new Scanner(System.in);
+
+        //System.out.println("Input command: ");
+        //do{
+        //  String input = scanner.nextLine();
+        //
+        // } while();
+
         ticTacPrinter.printGameCanvas(ticTac.getTicTac());
+
+        //start easy user
+        //ticTac.initPlayers(
 
         do {
             //player one moves --> check valid move

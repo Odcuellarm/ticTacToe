@@ -13,6 +13,17 @@ public class ticTacGame {
     private int length;
     private String gameStatus;
     Scanner scanner = new Scanner(System.in);
+    //String[] playerOne; // [typeOfPlayer, mark]
+    //String[] playerTwo; // [typeOfPlayer, mark]
+
+
+    //public void setPlayers(String typePlayer1, String typePlayer2) {
+    //
+    //     this.playerOne = {typePlayer1, "X"};
+    //     this.playerTwo = {typePlayer2, "O"};
+    //
+    //}
+
 
     public ticTacGame() {
         this.ticTac = new char[][]{{' ', ' ', ' '},{' ', ' ', ' '},{' ', ' ', ' '}};
